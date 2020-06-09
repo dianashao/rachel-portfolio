@@ -1,0 +1,43 @@
+.carousel {
+  position: absolute;
+  width: 100vw;
+  height: 550px;
+  left: 0;
+  top: 0;
+  line-height: 550px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .carousel {
+    width: 1000px;
+  }
+}
+
+.carousel-indicators li{
+  background-color:white;
+  position: relative;
+  bottom: 1em;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.info-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 100vw;
+  top: 600px;
+  left: 0;
+  overflow: hidden;
+}
+.text {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 800px;
+}

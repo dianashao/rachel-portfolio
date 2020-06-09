@@ -1,0 +1,72 @@
+.about-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-page-black-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#about-page-title {
+  margin-bottom: 40px;
+}
+
+#about-page-profile-img {
+  width: 400px;
+  object-fit: contain;
+  clip-path: circle(200px at center);
+}
+
+.about-page-black-container h4 {
+  width: 800px;
+  padding: 15px;
+}
+
+#resume-button {
+  border-radius: 0;
+  margin-top: 40px;
+  margin-bottom: 120px;
+  width: 100px;
+  height: 45px;
+  font-weight: 300;
+}
+
+.about-page-gold-container {
+  width: 100vw;
+  background-color: #876f49;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-form {
+  margin: 20px;
+  width: 800px;
+}
+
+.form-control {
+  height: 50px;
+  border-radius: 0;
+  background-color: #876f49;
+  color: white;
+  border-color: white;
+  border-width: 1.3px;
+}
+
+#submit-button {
+  border-radius: 0;
+  margin-top: 15px;
+  width: 130px;
+  height: 45px;
+  font-weight: 500;
+  position: relative;
+  transform: translate(335px, 0);
+}

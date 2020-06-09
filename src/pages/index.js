@@ -1,69 +1,50 @@
 import React from "react"
-import { Row, Col, Container, ListGroup } from "react-bootstrap"
+import { Carousel } from "react-bootstrap"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import img1 from "../images/img1.jpg"
+import img2 from "../images/img2.jpg"
+import img3 from "../images/img3.jpg"
+
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "index" }}>
-    <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
-    <Container className="text-center">
-      <Row>
-        <Col>
-          <p>
-            This is a Gatsby Starter that I frequently use to get jump started
-            on quick website builds. It includes the following packages:
-          </p>
-        </Col>
-      </Row>
-      <Row className="justify-content-center my-3">
-        <Col md="6">
-          <ListGroup>
-            <ListGroup.Item
-              action
-              href="https://getbootstrap.com"
-              target="_blank"
-            >
-              Bootstrap
-            </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://react-bootstrap.github.io/"
-              target="_blank"
-            >
-              react-bootstrap
-            </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://react-icons.netlify.com"
-              target="_blank"
-            >
-              react-icons
-            </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://www.gatsbyjs.org/packages/gatsby-plugin-sass/"
-              target="_blank"
-            >
-              gatsby-plugin-sass
-            </ListGroup.Item>
-          </ListGroup>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <p>
-            This starter also includes a navbar that sticks to the top of the
-            screen when the user scrolls past it, and a footer that stays at the
-            bottom of the screen.
-          </p>
-          <p>
-            For more documentation on these packages and how they work, please
-            refer to the pages linked in the list above.
-          </p>
-        </Col>
-      </Row>
-    </Container>
+    <SEO title="Rachel Wang" keywords={[`portfolio`, `videography`, `photography`]} />
+    <Carousel controls={false}>
+      <Carousel.Item>
+        <img
+          className={"d-block w-100"}
+          src={img1}
+          alt={"First slide"}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className={"d-block w-100"}
+          src={img2}
+          alt={"First slide"}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className={"d-block w-100"}
+          src={img3}
+          alt={"First slide"}
+        />
+      </Carousel.Item>
+    </Carousel>
+    <div className={'info-container'}>
+      <div className={'text'}>
+        <h1>RACHEL WANG</h1>
+      </div>
+      <div className={'text'}>
+        <h3>Adventurer, Believer, Filmmaker</h3>
+      </div>
+      <div className={'text'}>
+        <h4>Welcome to my online portfolio. I have a passion for combining my interests with filmmaking and the arts. Here you’ll find samples of my own independent projects and photos. I hope you’ll take some time to browse my site, and please do not hesitate to get in touch if you have any questions about my work.</h4>
+      </div>
+    </div>
   </Layout>
 )
 
