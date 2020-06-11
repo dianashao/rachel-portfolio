@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import { Button, Form } from "react-bootstrap"
 import profile_pic from "../images/profile-pic.jpg"
 
-const SecondPage = () => (
+const AboutPage = () => (
   <Layout pageInfo={{ pageName: "about" }}>
     <SEO title="About" />
     <div className={'about-page-container'}>
@@ -20,7 +20,7 @@ const SecondPage = () => (
         <h4>
           Please take the opportunity to browse through my site, have a look at my showreel, and explore my resume. If you would like to get in touch, feel free to fill out the form below! Let's connect!
         </h4>
-        <Button variant={"light"} id={'resume-button'}>Resume</Button>
+        <Button variant={"light"} className={'button'}>Resume</Button>
       </div>
       <div className={'about-page-gold-container'}>
         <h2>LET'S CONNECT</h2>
@@ -46,4 +46,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default AboutPage;

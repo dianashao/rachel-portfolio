@@ -6,11 +6,16 @@
 }
 
 .about-page-black-container {
-  margin-top: 80px;
+  background-color: rgb(25, 25, 25);
+  width: 100vw;
+  padding-top: 130px;
+  margin-top: -50px;
+  top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  z-index: 1;
 }
 
 #about-page-title {
@@ -26,15 +31,6 @@
 .about-page-black-container h4 {
   width: 800px;
   padding: 15px;
-}
-
-#resume-button {
-  border-radius: 0;
-  margin-top: 40px;
-  margin-bottom: 120px;
-  width: 100px;
-  height: 45px;
-  font-weight: 300;
 }
 
 .about-page-gold-container {
