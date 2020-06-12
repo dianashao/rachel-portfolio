@@ -28,6 +28,7 @@ const IndexPage = () => (
       </Carousel.Item>
       <Carousel.Item>
         <img
+          id={'img3'}
           className={"d-block w-100"}
           src={img3}
           alt={"First slide"}

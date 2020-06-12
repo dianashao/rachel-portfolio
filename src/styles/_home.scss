@@ -1,7 +1,7 @@
 .carousel {
   position: absolute;
   width: 100vw;
-  height: 550px;
+  height: 650px;
   left: 0;
   top: 0;
   line-height: 550px;
@@ -9,9 +9,21 @@
   overflow: hidden;
 }
 
-@media (max-width: 1000px) {
+.carousel img {
+  position: relative;
+  margin-top: -12%;
+}
+
+#img3 {
+  margin-top: 0;
+}
+
+@media (max-width: 1200px) {
   .carousel {
-    width: 1000px;
+    width: 1200px;
+  }
+  .info-container {
+    width: 1200px;
   }
 }
 
@@ -31,7 +43,7 @@
   align-content: center;
   align-items: center;
   width: 100vw;
-  top: 600px;
+  top: 700px;
   left: 0;
   overflow: hidden;
 }
