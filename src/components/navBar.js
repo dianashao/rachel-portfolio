@@ -18,7 +18,7 @@ const CustomNavbar = ({ pageInfo }) => {
             <Nav.Link href={'/photography'}>Photography</Nav.Link>
             <Nav.Link href={'/red-rabbit'}>Red Rabbit Productions</Nav.Link>
           </Nav>
-          <a href={'https://www.linkedin.com/in/rachelwang99/'}>
+          <a href={'https://www.linkedin.com/in/rachelwang99/'} target="_blank">
             <img src={linked} alt={'linkedin logo'}></img>
           </a>
 
