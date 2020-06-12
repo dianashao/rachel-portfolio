@@ -20,7 +20,13 @@ const AboutPage = () => (
         <h4>
           Please take the opportunity to browse through my site, have a look at my showreel, and explore my resume. If you would like to get in touch, feel free to fill out the form below! Let's connect!
         </h4>
-        <Button variant={"light"} className={'button'}>Resume</Button>
+        <Button
+          variant={"light"}
+          className={'button'}
+          href={"https://fdec3a45-3ef3-454c-be07-63e22a81df13.filesusr.com/ugd/f9e640_477302a07c8d468dbcaa12920ea2b145.pdf"}
+          target={"_blank"}>
+            Resume
+        </Button>
       </div>
       <div className={'about-page-gold-container'}>
         <h2>LET'S CONNECT</h2>
